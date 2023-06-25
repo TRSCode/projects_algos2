@@ -13,8 +13,8 @@ class SLL {
     }
     
     // --------------------------------------1--------------------------------------
-    addFront(value) {
-        let newNode = new Node(value);
+    addFront(data) {
+        let newNode = new Node(data);
         if (this.head !== null) {
             newNode.next = this.head;
         }
