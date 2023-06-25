@@ -40,8 +40,8 @@ class SLL {
 }
 
 let SLL1 = new SLL();
-console.log(SLL1.addFront(76)); // SLL { head: Node { data: 76, next: null } }
-console.log(SLL1.addFront(2)); // SLL { head: Node { data: 2, next: Node { data: 76, next: null } } }
-console.log(SLL1.display()); // "2, 76"
-console.log(SLL1.addFront(11.41)); // SLL { head: Node { data: 11.41, next: Node { data: 2, next: Node { data: 76, next: null } } } }
-console.log(SLL1.display()); // "11.41, 2, 76"
+console.log(SLL1.addFront(76)); 
+console.log(SLL1.addFront(2)); 
+console.log(SLL1.display()); 
+console.log(SLL1.addFront(11.41)); 
+console.log(SLL1.display()); 
